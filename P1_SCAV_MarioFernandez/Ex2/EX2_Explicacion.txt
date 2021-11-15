@@ -1,0 +1,9 @@
+La imagen original es LENNA_SCAV.jpg. Buscando información sobre qué operación 
+utilizar para reescalar la imagen con ffmpeg, encontré la operación:
+
+ffmpeg -i IMAGEN_ORIGINAL.jpg -vf scale=x:y IMAGEN_ESCALADA.jpg
+
+(donde x,y son los valores horizontales y verticales para el tamaño de la imagen modificada)
+
+Escribiendo los diferentes terminos en la terminal de Ubuntu se creó la imagen
+escalada.
